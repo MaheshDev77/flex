@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* styling the total content */
+        *{
+            margin: 20px;
+        }
+        /* styling the total container */
+        .container{
+            height: 45em;
+            width: 100em;
+            background-color: rgb(219, 233, 233);
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+        }
+        /* 1st row */
+        .parent1{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-content: space-around;
+        }
+        /* Giving back-ground colour for the boxes */
+        .item1, .item2, .item3, .item4, .item5, .item6{
+            background-color: white;
+        }
+        /* To style all the logo's */
+        img{
+            margin: 0;
+            padding: 0;
+            width: 90px;
+        }
+        /* aligning content to the side of the image */
+        .item1a, .item2a, .item3a, .item4a, .item5a, .item6a{
+            display: flex;
+        }
+        /* adjusting font-weight and aligning content to the box measurements */
+        .item1b, .item2b, .item3b, .item4b, .item5b, .item6b{
+            width: 280px;
+            font-weight: 1000;
+        }
+        /* aligning content side-by-side and space between them */
+        .item1c, .item2c, .item3c, .item4c, .item5c, .item6c{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 5px;
+            margin-right: 9px;
+        }
+        /* 2nd row */
+        .parent2{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <!-- Total container -->
+    <div class="container">
+        <!-- 1st row of the container -->
+        <div class="parent1">
+            <!-- box 1 -->
+            <div class="item1">
+                <!-- item 1a -->
+                <div class="item1a">
+                    <img src="https://cdn-b.saashub.com/images/app/service_logos/6/5493112e60c9/large.png?1525414139" alt="no file">
+                    <div>
+                        Stripe <br>Payment Services <br> &#9733;&#9733;&#9733;&#9733; 
+                    </div>
+                </div>
+                <!-- item 1b -->
+                <div class="item1b">Get more context on your users with stripe data inside our platform.</div>
+                <!-- item 1c -->
+                <div class="item1c">
+                    <p>Installed 172 times</p> 
+                    <a href="#">View ></a>
+                </div>
+            </div> 
+            <!-- box 2 -->
+            <div class="item2">
+                <!-- item 2a -->
+                <div class="item2a">
+                    <img src="https://s3.amazonaws.com/www-inside-design/uploads/2018/10/mailchimp-sq-810x810.jpg" alt="no file">
+                    <div>
+                        Mailchimp <br> Project Management <br> &#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <!-- item 2b -->
+                <div class="item2b">Capture and sync subscribers from your mailchimp platform to ours with ease.</div>
+                <!-- item 2c -->
+                <div class="item2c">
+                    <p>Installed 1234 times</p>
+                    <a href="#">View ></a>
+                </div>
+            </div>
+            <!-- box 3 -->
+            <div class="item3">
+                <!-- item 3a -->
+                <div class="item3a">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/dropbox-2-logo-png-transparent.png" alt="no file">
+                    <div>
+                        Dropbox <br> File Management <br> &#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <!-- item 3b -->
+                <div class="item3b">Use dropbox to sync your photos to our platform and share it with others.</div>
+                <!-- item 3c -->
+                <div class="item3c">
+                    <p>Installed 1234 times</p>
+                    <a href="#">View ></a>
+                </div>
+            </div>
+        </div> 
+        <!-- 2nd row of the container -->
+        <div class="parent2">
+            <!-- box 1 -->
+            <div class="item4">
+                <!-- item 4a -->
+                <div class="item4a">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/08/Shopify-Logo.jpg" alt="no file">
+                    <div>
+                        Shopify <br> Ecommerce <br> &#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <!-- item 4b -->
+                <div class="item4b">Sell your items with ease with having any website with our free platform.</div>
+                <!-- item 4c -->
+                <div class="item4c">
+                    <p>Installed 1234 times</p> 
+                    <a href="#">View ></a>
+                </div>
+            </div>
+            <!-- box 2 -->
+            <div class="item5">
+                <!-- item 5a -->
+                <div class="item5a">
+                    <img src="https://static-00.iconduck.com/assets.00/atlassian-icon-512x512-2p7fz86w.png" alt="no file">
+                    <div>
+                        Atlassian <br> Project management <br> &#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <!-- item 5b -->
+                <div class="item5b">Developing products for developers, project managers and architects.</div>
+                <!-- item 5c -->
+                <div class="item5c">
+                    <p>Installed 345 times</p> 
+                    <a href="#">View ></a>
+                </div>
+            </div>
+            <!-- box 3 -->
+            <div class="item6">
+                <!-- item 6a -->
+                <div class="item6a">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/768px-Salesforce.com_logo.svg.png" alt="no file">
+                    <div>
+                        Salesfprce <br>Project management <br> &#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <div class="item6b">Developing products for developers, project managers and architects.</div>
+                <div class="item6c">
+                    <p>Installed 345 times</p>
+                    <a href="#">View ></a>
+                </div>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
